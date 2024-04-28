@@ -29,29 +29,7 @@
 #### 戻り値
 積を表す新しい行列。
 
-## 使用方法
 
-1. `matrix_operations.py`を自分のプロジェクトに取り込みます。
-2. 適切な場所で関数をインポートして使用します。
-
-```python
-from matrix_operations import m_sum, m_pow
-
-# 例: 行列の和の計算
-matrix1 = [
-    [1, 2, 3],
-    [4, 5, 6]
-]
-matrix2 = [
-    [7, 8, 9],
-    [10, 11, 12]
-]
-sum_matrix = m_sum(matrix1, matrix2)
-print("行列の和:")
-for row in sum_matrix:
-    print(row)
-
-# 例: 行列の積の計算
 matrix3 = [
     [1, 2],
     [3, 4],
